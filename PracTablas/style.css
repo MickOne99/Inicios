@@ -1,0 +1,17 @@
+table{
+    border-collapse: collapse;
+}    
+    
+td {
+    border: 1px solid gray;
+}
+
+th {
+    background: black;
+    color: cornsilk;
+}
+
+td, th {
+    text-align: center;
+    padding: 2rem;
+}
