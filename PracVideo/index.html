@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bogota DC</title>
+    <style>
+        body {
+            background-color: dimgray;
+        } 
+        video {
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Bogota DC - <i>Colombia</i></h1><div>18:40 AM</div>
+        <video id="video" src="media/BOGOTA.mp4" controls autoplay poster="media/imagen.png"></video>
+        <br>
+        <button id="play"> Play</button>
+        <button id="pause"> Pause</button>
+    </article>
+    <hr>
+    <footer>
+            <sub>Video creado por cityBlink</sub>
+    </footer>
+    <script>
+        const Video = document.getElementById("Video");
+        const play = document.getElementById("play");
+        const pausa = document.getElementById("pause");
+
+        play.addEventListener("click", ()=> {
+            video.play()
+            })
+        
+        pause.addEventListener("click", ()=> {
+            video.pause()
+        })
+        
+
+    </script>
+
+</body>
+</html>
