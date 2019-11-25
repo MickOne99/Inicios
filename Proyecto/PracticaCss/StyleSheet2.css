@@ -1,0 +1,35 @@
+﻿*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(#efb810 70%, #eeff00) ;
+}
+
+a {
+    text-decoration: overline;
+    color: red;
+    padding-left: 44%;
+}
+.box {
+    --border-radius-x: 60px;
+    --border-radius-y: 150px;
+    height: 360px;
+    width: 530px;
+    background: #DF0101;
+    margin: 100px auto;
+    margin-top: 155px;
+    padding-top: 0.1px;
+    padding-left: 70px;
+    border-radius: var(--border-radius-x) / var(--border-radius-y);
+}
+
+.subbox {
+    width: 50px;
+   
+    margin: 70px;
+    margin-left: 160px;
+    margin-top: 75px;
+    border: 100px solid;
+    border-color: transparent transparent transparent #efb810;
+}

@@ -1,0 +1,70 @@
+*,*::before,*::after {
+     box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient( rgb(59, 59, 59), rgb(38, 0, 39));
+    background-repeat: repeat;
+}
+
+img {
+    position: absolute;
+    border-radius: 5px;
+    padding-left: 41.9%;
+    padding-top: 1%;
+
+}
+
+.parrafo {
+    font-size: 18px;
+}
+
+.Op {   
+    padding-left: 1%;
+}
+
+.Ay {
+    padding-left: 41.5%;
+}
+
+.Rai {
+    padding-left: 34%;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+h1 {
+    background-image: linear-gradient( rgb(255, 255, 255),rgb(0, 0, 0));
+    border-radius: 13px;
+    text-align: center;
+}
+
+h1,h3 {
+    font-family: 'Franklin Gothic Medium',  Arial, sans-serif;
+    text-shadow: 1.5px 1.5px 1px oldlace;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+.Este {
+    text-shadow: 1px 1px 0.5px oldlace;
+} 
+
+p {
+    font-family: monospace;
+}
+
+div {
+    margin: 3%;
+    padding: 8%;
+    border: 3px black;
+}
+
+.input {
+    display: inline;
+}

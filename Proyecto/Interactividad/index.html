@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/jpg" href="../index.js/img/ico.jpg" />
+    <title>Interactivdad y contenido embebido</title>
+</head>
+<style>
+    .body{
+        background-color: rgba(0, 0, 0, 0.765);
+    }
+
+    h1 {text-align: center;
+        box-shadow: .35px .35px rgba(255, 255, 255, 0.765);
+    }
+
+    dialog {
+        background-color: rgba(0, 0, 0, 0.765);
+        color: purple;
+    }
+
+    a {
+        text-decoration: none;
+        background-color: black;
+    }
+
+    button {
+        margin-left: 41% ;
+        border-radius: 12px;
+    }
+</style>
+<body class="body">
+    <h1>Contenido Interactivo</h1>
+    <dialog id="modal">
+        <h2>Esto es como magia !!</h2>
+            <p>valor: Ventana que no modifica interfaz original</p>
+            <p>persona: Pepito Reperez </p>
+            <button id="buttonC">Cerrar Ventana</button>
+    </dialog>
+    <button id="button">Abrir Ventana</button>
+    <br>
+    <br>
+    <details>
+            <summary>HTML</summary>
+                <p>Lenguaje de marcado de hipertexto</p>
+                <p>H.T.M.L.</p>
+    </details>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a href="../../Repos/index.js/index.html">REGRESAR AL INICIO </a>
+    <script>
+        const modal = document.getElementById("modal");
+        const button = document.getElementById("button");
+        const buttonC = document.getElementById("buttonC")
+
+        button.addEventListener("click", () => {
+            modal.setAttribute ("open", "true")
+        })
+
+        buttonC.addEventListener("click", () => {
+            modal.removeAttribute ("open", "true")
+        })
+    </script>
+</body>
+</html>

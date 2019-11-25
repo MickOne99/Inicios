@@ -1,0 +1,40 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient( rgb(73, 0, 40) 15%, rgb(255, 0, 140) , rgb(54, 0, 30) );
+    margin-top: 2rem;
+    margin-left: 23%;
+}
+
+
+table{
+    border-collapse: collapse;
+}    
+    
+td {
+    border: 3px solid gray;
+}
+
+th {
+    background: black;
+    color: cornsilk;
+}
+
+td, th {
+    text-align: center;
+    padding: 2rem;
+}
+
+.title{
+    margin-bottom: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+
+a {
+    padding-left: 27%;
+    color: white;
+    text-decoration: none;
+}
